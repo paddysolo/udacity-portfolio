@@ -1,0 +1,188 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D1D2D4;
+    font-size: 100%;
+}
+#logo {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#na_butt{
+    color: #ef6817;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+}
+nav {
+    text-align: center;
+    padding-top: 5rem;
+    width :250px;
+    height: 100%;
+    position: absolute;
+    transform: translate(-300px,0);
+    transition: transform 0.3s ease;
+}
+nav img{
+    
+    width: 150px;
+    height: 115.6px;
+    margin-right: -20px;
+}
+ul.navigation li {
+    padding: 5px;
+}
+ul.navigation a {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    text-decoration: none;
+}
+.open {
+    transform: translate(0,0);
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.push {
+    position: absolute;
+    transform: translate(220px,0);
+    transition: transform 0.3s ease;
+}
+
+.main{
+    background-color: #727271;
+}
+#info h1{
+    text-align: right;
+    font-size: 2em;
+    line-height: 1.25;
+    font-family: 'Markazi Text', serif;
+    color: #fff;
+}
+#info p{
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+#hero {
+    background-color: #727271;
+    background-image: url("../heroimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+#hero h2{
+    font-size: 2em;
+    line-height: 1.25;
+    color: #ef6817;
+    font-family: 'Markazi Text', serif;
+}
+#hero p {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.card {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #EDF1F4;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+.card_header img{
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card h3, .card p {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.card_body a{
+    text-decoration: none;
+    color: #ef6817;
+}
+div.card:hover{
+    box-shadow: 2px 2px 30px;
+}
+#footer {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #E9EBEE;
+    background-color: #0B0C07;
+    padding-top:70px;
+   /* border-top:  40px solid pink;
+   border-image-source: url(../images/ftt.png);
+   border-image-slice: 30 30;
+   border-image-repeat: ; */
+   
+}
+.contact{
+    width: 100%;
+    text-align: center;
+}
+.pro{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    color:  #7d97ad;
+    
+    font-family: 'Poiret One', cursive;
+    
+}
+ul#social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#social li {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+span.fa-li{
+    margin: 0;
+    padding: 0px;
+}
+ul#social li a{
+    text-decoration: none;
+    color: #7d97ad;
+    font-family: 'Poiret One', cursive;
+}
+ul#social li a:hover {
+    color:#ef6817;
+    transition: transform 0.3s ease;
+}
+.pro a{
+    text-decoration: none;
+    color:  #7d97ad;
+    padding: 5px;
+    font-family: 'Poiret One', cursive;
+}
+.pro a:hover{
+    color:#ef6817;
+    transition: transform 0.3s ease;
+}
+.pro p {
+    color:  #7d97ad;
+    font-family: 'Poiret One', cursive;
+}

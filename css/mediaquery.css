@@ -1,0 +1,215 @@
+
+@media screen and (max-width:599px){
+    .container{
+        margin-bottom: 0;
+        padding: 0;
+    }
+    #hero{
+        background-color: #21201f;
+        padding-top: 10px;
+        padding-left: 10px;
+        height: 60vh;
+    }
+    .main{
+        background-color: #21201f;
+    }
+    #info{
+        background-color: #21201f;
+        padding: 5px;
+        
+    }
+    #logo{
+        position: relative;
+        left: 30%;
+        top: 5px;
+    }
+    #info h1{
+        margin: 0px;
+        padding:5px;
+        line-height: 1em;
+        display: none
+    }
+    #info p{
+        margin: 0px;
+        padding:5px;
+        line-height: 1em;
+        display: none;
+    }
+    #featured_work {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #featured_work .item {
+        width: 100%;
+    }
+    nav {
+        background-color: #21201f;
+    }
+    div.col-xs{
+        display: none;
+    }
+
+}
+@media screen and (min-width:600px) and (max-width:750px){
+    nav {
+        position: relative;
+        width: 100%;
+        transform: translate(0,0);
+        padding-top: 5rem;
+        height: 70vh;
+    }
+    #na_butt {
+        display: none;
+    }
+    #info h1 {
+        margin: 0;
+    }
+    #info p{
+        margin: 0;
+    }
+    div.contain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 30%;
+        text-align: center;
+        background-color:  #21201f;
+        margin-bottom:0; 
+    }
+    .main {
+        width: 70%;
+        background-color: #21201f;
+    }
+    #hero {
+        background-color: #21201f;
+        height: 80vh;
+        padding: 5px;
+        padding-top: 50px;
+    }
+    #hero h2{
+        font-size: 2em;
+        line-height: 1em;
+    }
+    #hero p{
+        font-size: 18px;
+        font-family: 'Playfair Display', serif;
+    }
+    #featured_work {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #featured_work h2{
+        width: 100%;
+    }
+    #featured_work .item {
+        width: 33.33%;
+    }
+    .contact{
+        width: 50%;
+        text-align: center;
+        order: 0;
+        font-size: 18px;
+    }
+    .pro{
+        width: 50%;
+        text-align: center;
+        order:1;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    #footer{
+        padding-top:50px;
+    }
+}
+
+@media screen and (min-width:751px){
+    nav {
+        position: relative;
+        transform: translate(0,0);
+        padding-top: 10rem;
+        width: 100%;
+        height: 70vh;
+    }
+    #na_butt {
+        display: none;
+    }
+    div.contain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container{
+        width: 20%;
+        text-align: center;
+        background-color:  #21201f;
+    }
+    .main {
+        width: 80%;
+        background-color: #21201f;
+    }
+    #hero {
+        background-color: #21201f;
+        height: 80vh;
+        padding: 20px;
+        padding-top: 100px;
+    }
+    #hero h2{
+        font-size: 3.5em;
+    }
+    #hero p{
+        font-size: 1.25em;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+    }
+    #info h1{
+        margin: 0;
+    }
+    #info p{
+        margin: 0;
+    }
+    #featured_work {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #featured_work h2{
+        width: 100%;
+    }
+    #featured_work .item {
+        width: 33.33%;
+    }
+    .contact{
+        width: 50%;
+        text-align: center;
+        order: 0;
+        font-size: 18px;
+    }
+    .pro{
+        width: 50%;
+        text-align: center;
+        order:1;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    #footer{
+        padding-top:50px;
+    }
+}
+@media screen and (min-width:1200px){
+    #featured_work {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main{
+        background-color: #21201f;
+    }
+}
